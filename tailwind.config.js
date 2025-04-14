@@ -1,5 +1,8 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const defaultTheme = require("tailwindcss/defaultTheme")
+import { COLORS } from "./src/config/COLORS"
+
+const appColors = COLORS["graybox"]
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -15,6 +18,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        ...appColors,
         primary: {
           50: "#eff6ff",
           100: "#dbeafe",

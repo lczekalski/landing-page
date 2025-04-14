@@ -1,0 +1,13 @@
+import { COLORS as COLORS_ALFABET } from "./COLORS_ALFABET"
+import { COLORS as COLORS_BITSTARZ } from "./COLORS_BITSTARZ"
+import { COLORS as COLORS_GRAYBOX } from "./COLORS_GRAYBOX"
+import { COLORS as COLORS_SLOTNIGHT } from "./COLORS_SLOTNIGHT"
+import { COLORS as COLORS_STREAMBET } from "./COLORS_STREAMBET"
+
+export const COLORS = {
+	alfabet: COLORS_ALFABET,
+	bitstarz: COLORS_BITSTARZ,
+	graybox: COLORS_GRAYBOX,
+	slotnight: COLORS_SLOTNIGHT,
+	streambet: COLORS_STREAMBET,
+}
