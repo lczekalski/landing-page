@@ -1,4 +1,4 @@
-import { TextFields, Widget } from "src/types/cms"
+import { TextFields, Widget } from "types/cms"
 
 export default function CmsCenteredText({ widget }: { widget: Widget }) {
   const fields = widget.fields as TextFields

@@ -8,6 +8,22 @@ export type Meta = {
   description: string
 }
 
+export type HeaderFields = {
+  visibility: object
+  cta: {
+    ctaText: string
+    ctaLink: string
+  }
+  logo?: string
+  languageSwitcher?: Map<string, LanguageValue>
+}
+
+export interface LanguageValue {
+  country: string
+  language: string
+  countryFlag: string
+}
+
 export interface Widget {
   auditCD: string
   auditCU: string | null
@@ -39,12 +55,6 @@ export interface Fields {
   visibility: Visibility
 }
 
-export interface HeaderFields extends Fields {
-  cta: CtaFields
-  logo?: Logo
-  languageSwitcher?: LanguageSwitcherOptions
-}
-
 export interface CtaFields {
   ctaLink: string
   ctaText: string
@@ -74,12 +84,6 @@ export interface LogoValue {
 export interface LanguageSwitcherOptions {
   type: string
   value: Map<string, LanguageValue>
-}
-
-export interface LanguageValue {
-  country: string
-  language: string
-  countryFlag: string
 }
 
 export interface LanguageSwitcherValue {

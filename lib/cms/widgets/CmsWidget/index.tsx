@@ -1,8 +1,8 @@
+import { Widget } from "lib/types/cms"
 import WidgetVisibilityChecker from "src/lib/widget_visibility_checker"
-import { Widget } from "src/types/cms"
 import CmsCenteredText from "../CmsCenteredText"
-import CmsFooter from "../CmsFooter"
-import Header from "../Header"
+import CmsFooter from "../Footer"
+import { Header, HeaderFields } from "../Header"
 
 export default function CmsWidget({ widget }: { widget: Widget }) {
   const renderWidget = (widget: Widget) => {
@@ -11,7 +11,7 @@ export default function CmsWidget({ widget }: { widget: Widget }) {
     }
     switch (widget.widgetType) {
       case "Header":
-        return <Header widget={widget} />
+        return <Header fields={widget.fields as HeaderFields} />
       case "CenteredText":
         return <CmsCenteredText widget={widget} />
       case "FooterLP":

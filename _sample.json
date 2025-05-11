@@ -1,0 +1,1266 @@
+{
+  "meta": {
+    "title": "Landing page - en",
+    "description": "Seo description"
+  },
+  "settings": null,
+  "widgets": [
+    {
+      "auditCD": "2025-03-04T13:18:05",
+      "auditCU": null,
+      "auditMD": "2025-04-07T14:56:54",
+      "auditMU": null,
+      "auditLD": "2025-04-07T14:56:54",
+      "fields": {
+        "logo": {
+          "type": "image",
+          "value": "https://s3.pl-waw.scw.cloud/bet/cms/streambet-test/Logo_Streambet_Header.png"
+        },
+        "visibility": {
+          "visibleOnSport": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForGuest": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnCasino": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnMobile": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnNative": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForLogged": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnDesktop": {
+            "type": "checkbox",
+            "value": true
+          }
+        },
+        "languageSwitcher": {
+          "type": "object",
+          "value": {
+            "de": {
+              "type": "object",
+              "value": {
+                "country": {
+                  "values": {
+                    "en": "Germany"
+                  }
+                },
+                "language": {
+                  "values": {
+                    "en": "German"
+                  }
+                },
+                "countryFlag": {
+                  "values": {
+                    "en": "🇩🇪"
+                  }
+                }
+              }
+            },
+            "en": {
+              "type": "object",
+              "value": {
+                "country": {
+                  "values": {
+                    "en": "United Kingdom"
+                  }
+                },
+                "language": {
+                  "values": {
+                    "en": "English"
+                  }
+                },
+                "countryFlag": {
+                  "values": {
+                    "en": "🇬🇧"
+                  }
+                }
+              }
+            },
+            "es": {
+              "type": "object",
+              "value": {
+                "country": {
+                  "values": {
+                    "en": "Spain"
+                  }
+                },
+                "language": {
+                  "values": {
+                    "en": "Spanish"
+                  }
+                },
+                "countryFlag": {
+                  "values": {
+                    "en": "🇪🇸"
+                  }
+                }
+              }
+            },
+            "fr": {
+              "type": "object",
+              "value": {
+                "country": {
+                  "values": {
+                    "en": "France"
+                  }
+                },
+                "language": {
+                  "values": {
+                    "en": "French"
+                  }
+                },
+                "countryFlag": {
+                  "values": {
+                    "en": "🇫🇷"
+                  }
+                }
+              }
+            },
+            "pl": {
+              "type": "object",
+              "value": {
+                "country": {
+                  "values": {
+                    "en": "Poland"
+                  }
+                },
+                "language": {
+                  "values": {
+                    "en": "Polish"
+                  }
+                },
+                "countryFlag": {
+                  "values": {
+                    "en": "🇵🇱"
+                  }
+                }
+              }
+            },
+            "pt": {
+              "type": "object",
+              "value": {
+                "country": {
+                  "values": {
+                    "en": "Portugal"
+                  }
+                },
+                "language": {
+                  "values": {
+                    "en": "Portuguese"
+                  }
+                },
+                "countryFlag": {
+                  "values": {
+                    "en": "🇵🇹"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "order": 0,
+      "widgetUuid": "d71ea871-a686-4e2c-bfca-23cb52ac056a",
+      "widgetType": "Header"
+    },
+    {
+      "auditCD": "2025-03-04T13:18:05",
+      "auditCU": null,
+      "auditMD": "2025-04-07T14:56:54",
+      "auditMU": null,
+      "auditLD": "2025-04-07T14:56:54",
+      "fields": {
+        "title": {
+          "type": "text",
+          "value": "200% up to €500"
+        },
+        "buttonText": {
+          "type": "text",
+          "value": "PLAY NOW"
+        },
+        "visibility": {
+          "visibleOnSport": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForGuest": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnCasino": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnMobile": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnNative": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForLogged": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnDesktop": {
+            "type": "checkbox",
+            "value": true
+          }
+        },
+        "gradientTitle": {
+          "type": "text",
+          "value": "WELCOME OFFER"
+        },
+        "backgroundImage": {
+          "type": "image",
+          "value": "https://s3.pl-waw.scw.cloud/bet/cms/streambet-test/STREAMBET-Visual1.jpg"
+        },
+        "countryCodeSwitcher": {
+          "type": "object",
+          "value": {
+            "de": {
+              "type": "object",
+              "value": {
+                "countryCode": {
+                  "values": {
+                    "en": "+49"
+                  }
+                },
+                "countryFlag": {
+                  "values": {
+                    "en": "🇩🇪"
+                  }
+                }
+              }
+            },
+            "en": {
+              "type": "object",
+              "value": {
+                "countryCode": {
+                  "values": {
+                    "en": "+44"
+                  }
+                },
+                "countryFlag": {
+                  "values": {
+                    "en": "🇬🇧"
+                  }
+                }
+              }
+            },
+            "es": {
+              "type": "object",
+              "value": {
+                "countryCode": {
+                  "values": {
+                    "en": "+38"
+                  }
+                },
+                "countryFlag": {
+                  "values": {
+                    "en": "🇪🇸"
+                  }
+                }
+              }
+            },
+            "fr": {
+              "type": "object",
+              "value": {
+                "countryCode": {
+                  "values": {
+                    "en": "+33"
+                  }
+                },
+                "countryFlag": {
+                  "values": {
+                    "en": "🇫🇷"
+                  }
+                }
+              }
+            },
+            "pl": {
+              "type": "object",
+              "value": {
+                "countryCode": {
+                  "values": {
+                    "en": "+48"
+                  }
+                },
+                "countryFlag": {
+                  "values": {
+                    "en": "🇵🇱"
+                  }
+                }
+              }
+            },
+            "pt": {
+              "type": "object",
+              "value": {
+                "countryCode": {
+                  "values": {
+                    "en": "+351"
+                  }
+                },
+                "countryFlag": {
+                  "values": {
+                    "en": "🇵🇹"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "order": 1,
+      "widgetUuid": "1c0e0055-4b4b-426c-9424-1db1b0c06a8c",
+      "widgetType": "FormSection"
+    },
+    {
+      "auditCD": "2025-03-04T13:18:05",
+      "auditCU": null,
+      "auditMD": "2025-04-07T14:56:54",
+      "auditMU": null,
+      "auditLD": "2025-04-07T14:56:54",
+      "fields": {
+        "steps": {
+          "type": "repeater",
+          "value": [
+            {
+              "id": "124fcaba-1454-47e2-ad7a-d058c538fe04",
+              "order": 0,
+              "title": {
+                "type": "text",
+                "value": "wq"
+              }
+            },
+            {
+              "id": "2c4c4317-5341-4105-8e89-9ee5615abdf8",
+              "order": 1,
+              "title": {
+                "type": "text",
+                "value": "fqwfe"
+              }
+            },
+            {
+              "id": "9bb16904-a56e-4d4d-a04a-4f358f7144d5",
+              "order": 2,
+              "title": {
+                "type": "text",
+                "value": "fewq"
+              }
+            }
+          ]
+        },
+        "visibility": {
+          "visibleOnSport": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForGuest": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnCasino": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnMobile": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnNative": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForLogged": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnDesktop": {
+            "type": "checkbox",
+            "value": true
+          }
+        }
+      },
+      "order": 2,
+      "widgetUuid": "1d8279fc-666a-4f49-a4f2-9975473620fd",
+      "widgetType": "Steps"
+    },
+    {
+      "auditCD": "2025-03-04T13:55:53",
+      "auditCU": null,
+      "auditMD": "2025-04-07T14:56:54",
+      "auditMU": null,
+      "auditLD": "2025-04-07T14:56:54",
+      "fields": {
+        "id": {
+          "type": "text",
+          "value": "feature"
+        },
+        "title": {
+          "type": "text",
+          "value": "Feature"
+        },
+        "className": {
+          "type": "text",
+          "value": "feature"
+        },
+        "visibility": {
+          "visibleOnSport": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForGuest": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnCasino": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnMobile": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnNative": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForLogged": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnDesktop": {
+            "type": "checkbox",
+            "value": true
+          }
+        },
+        "data-test-id": {
+          "type": "text",
+          "value": "feature"
+        }
+      },
+      "order": 3,
+      "widgetUuid": "14b41edf-c09b-440f-9e3c-dc4726c53199",
+      "widgetType": "SectionStart"
+    },
+    {
+      "auditCD": "2025-03-04T13:55:53",
+      "auditCU": null,
+      "auditMD": "2025-04-07T14:56:54",
+      "auditMU": null,
+      "auditLD": "2025-04-07T14:56:54",
+      "fields": {
+        "text": {
+          "type": "text",
+          "value": "Feature"
+        },
+        "visibility": {
+          "visibleOnSport": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForGuest": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnCasino": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnMobile": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnNative": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForLogged": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnDesktop": {
+            "type": "checkbox",
+            "value": true
+          }
+        }
+      },
+      "order": 4,
+      "widgetUuid": "4ce1edec-6745-45a9-b174-d196fe1eb072",
+      "widgetType": "DesktopSectionTitle"
+    },
+    {
+      "auditCD": "2025-03-04T13:18:05",
+      "auditCU": null,
+      "auditMD": "2025-04-07T14:56:54",
+      "auditMU": null,
+      "auditLD": "2025-04-07T14:56:54",
+      "fields": {
+        "features": {
+          "type": "repeater",
+          "value": [
+            {
+              "id": "2409b171-f847-4f94-abce-61a5e4431cd5",
+              "image": {
+                "type": "image",
+                "value": "https://s3.pl-waw.scw.cloud/bet/cms/streambet-test/Streambet-visual3.jpg"
+              },
+              "order": 0,
+              "title": {
+                "type": "text",
+                "value": "fewq"
+              },
+              "subtitle": {
+                "type": "text",
+                "value": "fewqf"
+              }
+            },
+            {
+              "id": "8a76a870-ea12-4f44-8279-72bf77a58449",
+              "image": {
+                "type": "image",
+                "value": "https://s3.pl-waw.scw.cloud/bet/cms/streambet-test/STREAMBET-Visual1.jpg"
+              },
+              "order": 1,
+              "title": {
+                "type": "text",
+                "value": "feqw"
+              },
+              "subtitle": {
+                "type": "text",
+                "value": "fewq"
+              }
+            },
+            {
+              "id": "a5961e65-8bcb-4587-a0ef-90533d625773",
+              "image": {
+                "type": "image",
+                "value": "https://s3.pl-waw.scw.cloud/bet/cms/streambet-test/yet-to-play.jpg"
+              },
+              "order": 2,
+              "title": {
+                "type": "text",
+                "value": "fewq"
+              },
+              "subtitle": {
+                "type": "text",
+                "value": "feqwfwe"
+              }
+            }
+          ]
+        },
+        "visibility": {
+          "visibleOnSport": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForGuest": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnCasino": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnMobile": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnNative": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForLogged": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnDesktop": {
+            "type": "checkbox",
+            "value": true
+          }
+        }
+      },
+      "order": 5,
+      "widgetUuid": "52e672c7-6f24-48b2-b5d8-e4ef0754f8bf",
+      "widgetType": "BannersWrap"
+    },
+    {
+      "auditCD": "2025-03-04T13:55:53",
+      "auditCU": null,
+      "auditMD": "2025-04-07T14:56:54",
+      "auditMU": null,
+      "auditLD": "2025-04-07T14:56:54",
+      "fields": {
+        "text": {
+          "type": "text",
+          "value": "Play the StreamBet way"
+        },
+        "visibility": {
+          "visibleOnSport": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForGuest": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnCasino": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnMobile": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnNative": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForLogged": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnDesktop": {
+            "type": "checkbox",
+            "value": true
+          }
+        }
+      },
+      "order": 6,
+      "widgetUuid": "c85cb544-d288-4fa1-b1aa-31c334bcc383",
+      "widgetType": "GradientText"
+    },
+    {
+      "auditCD": "2025-03-04T13:55:53",
+      "auditCU": null,
+      "auditMD": "2025-04-07T14:56:54",
+      "auditMU": null,
+      "auditLD": "2025-04-07T14:56:54",
+      "fields": {
+        "text": {
+          "type": "text",
+          "value": "At StreamBet we're dedicated to provide a secure and hassle-free gaming experience. That's why we've implemented state-of-the-art encryption technology to ensure all your deposits are protected with the utmost care."
+        },
+        "visibility": {
+          "visibleOnSport": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForGuest": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnCasino": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnMobile": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnNative": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForLogged": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnDesktop": {
+            "type": "checkbox",
+            "value": true
+          }
+        }
+      },
+      "order": 7,
+      "widgetUuid": "173f386a-d922-4f48-9eac-7b1a16fd068e",
+      "widgetType": "CenteredText"
+    },
+    {
+      "auditCD": "2025-03-04T13:55:53",
+      "auditCU": null,
+      "auditMD": "2025-04-07T14:56:54",
+      "auditMU": null,
+      "auditLD": "2025-04-07T14:56:54",
+      "fields": {
+        "text": {
+          "type": "text",
+          "value": "PLAY NOW"
+        },
+        "visibility": {
+          "visibleOnSport": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForGuest": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnCasino": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnMobile": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnNative": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForLogged": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnDesktop": {
+            "type": "checkbox",
+            "value": true
+          }
+        }
+      },
+      "order": 8,
+      "widgetUuid": "14426787-c40f-492e-8122-855d59fe6517",
+      "widgetType": "GradientButton"
+    },
+    {
+      "auditCD": "2025-03-04T14:14:14",
+      "auditCU": null,
+      "auditMD": "2025-04-07T14:56:54",
+      "auditMU": null,
+      "auditLD": "2025-04-07T14:56:54",
+      "fields": {
+        "visibility": {
+          "visibleOnSport": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForGuest": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnCasino": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnMobile": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnNative": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForLogged": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnDesktop": {
+            "type": "checkbox",
+            "value": true
+          }
+        },
+        "defaultProps": {
+          "type": "text",
+          "value": "dsa"
+        }
+      },
+      "order": 9,
+      "widgetUuid": "238ba1e0-132a-4d45-8835-682074dfec0b",
+      "widgetType": "SectionEnd"
+    },
+    {
+      "auditCD": "2025-03-04T14:14:14",
+      "auditCU": null,
+      "auditMD": "2025-04-07T14:56:54",
+      "auditMU": null,
+      "auditLD": "2025-04-07T14:56:54",
+      "fields": {
+        "id": {
+          "type": "text",
+          "value": "gameReleases"
+        },
+        "title": {
+          "type": "text",
+          "value": "Game Releases"
+        },
+        "className": {
+          "type": "text",
+          "value": "gameReleases"
+        },
+        "visibility": {
+          "visibleOnSport": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForGuest": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnCasino": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnMobile": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnNative": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForLogged": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnDesktop": {
+            "type": "checkbox",
+            "value": true
+          }
+        },
+        "data-test-id": {
+          "type": "text",
+          "value": "gameReleases"
+        }
+      },
+      "order": 10,
+      "widgetUuid": "a0006d50-9908-4b6f-80be-1498b7735169",
+      "widgetType": "SectionStart"
+    },
+    {
+      "auditCD": "2025-03-04T14:14:14",
+      "auditCU": null,
+      "auditMD": "2025-04-07T14:56:54",
+      "auditMU": null,
+      "auditLD": "2025-04-07T14:56:54",
+      "fields": {
+        "text": {
+          "type": "text",
+          "value": "DON'T MISS"
+        },
+        "visibility": {
+          "visibleOnSport": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForGuest": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnCasino": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnMobile": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnNative": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForLogged": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnDesktop": {
+            "type": "checkbox",
+            "value": true
+          }
+        }
+      },
+      "order": 11,
+      "widgetUuid": "a81e1eed-10bd-4406-9a61-21e4b693e37f",
+      "widgetType": "SectionTitleCentered"
+    },
+    {
+      "auditCD": "2025-03-04T14:14:14",
+      "auditCU": null,
+      "auditMD": "2025-04-07T14:56:54",
+      "auditMU": null,
+      "auditLD": "2025-04-07T14:56:54",
+      "fields": {
+        "text": {
+          "type": "text",
+          "value": "Game release every week!"
+        },
+        "visibility": {
+          "visibleOnSport": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForGuest": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnCasino": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnMobile": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnNative": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForLogged": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnDesktop": {
+            "type": "checkbox",
+            "value": true
+          }
+        }
+      },
+      "order": 12,
+      "widgetUuid": "a492daaf-0f0a-4b7b-8843-c5551e73b1b7",
+      "widgetType": "GradientText"
+    },
+    {
+      "auditCD": "2025-03-04T14:14:14",
+      "auditCU": null,
+      "auditMD": "2025-04-07T14:56:54",
+      "auditMU": null,
+      "auditLD": "2025-04-07T14:56:54",
+      "fields": {
+        "cards": {
+          "type": "repeater",
+          "value": [
+            {
+              "id": "1fc71031-dcaa-45a7-8e23-5d3335e65eb3",
+              "badge": {
+                "type": "text",
+                "value": "Best in category"
+              },
+              "order": 0,
+              "title": {
+                "type": "text",
+                "value": "Gates of Olympus"
+              },
+              "category": {
+                "type": "text",
+                "value": "Pragmatic Play"
+              },
+              "largeImg": {
+                "type": "image",
+                "value": "https://s3.pl-waw.scw.cloud/bet/cms/streambet-test/overlay_banner_1.png"
+              },
+              "smallImg": {
+                "type": "image",
+                "value": "https://s3.pl-waw.scw.cloud/bet/cms/streambet-test/overlay_banner_1.png"
+              }
+            },
+            {
+              "id": "5743860a-5c29-46c4-9a52-f9acb6f2c0c8",
+              "badge": {
+                "type": "text",
+                "value": "Best in category"
+              },
+              "order": 1,
+              "title": {
+                "type": "text",
+                "value": "Gates of Olympus"
+              },
+              "category": {
+                "type": "text",
+                "value": "Pragmatic Play"
+              },
+              "largeImg": {
+                "type": "image",
+                "value": "https://s3.pl-waw.scw.cloud/bet/cms/streambet-test/overlay_banner_1.png"
+              },
+              "smallImg": {
+                "type": "image",
+                "value": "https://s3.pl-waw.scw.cloud/bet/cms/streambet-test/overlay_banner_1.png"
+              }
+            },
+            {
+              "id": "8a466720-e998-49f0-888e-9eb07a06b2c1",
+              "badge": {
+                "type": "text",
+                "value": "Best in category"
+              },
+              "order": 2,
+              "title": {
+                "type": "text",
+                "value": "Gates of Olympus"
+              },
+              "category": {
+                "type": "text",
+                "value": "Pragmatic Play"
+              },
+              "largeImg": {
+                "type": "image",
+                "value": "https://s3.pl-waw.scw.cloud/bet/cms/streambet-test/overlay_banner_1.png"
+              },
+              "smallImg": {
+                "type": "image",
+                "value": "https://s3.pl-waw.scw.cloud/bet/cms/streambet-test/overlay_banner_1.png"
+              }
+            },
+            {
+              "id": "bd428613-185b-4ae5-a25d-08346ac61100",
+              "badge": {
+                "type": "text",
+                "value": "Best in category"
+              },
+              "order": 3,
+              "title": {
+                "type": "text",
+                "value": "Gates of Olympus"
+              },
+              "category": {
+                "type": "text",
+                "value": "Pragmatic Play"
+              },
+              "largeImg": {
+                "type": "image",
+                "value": "https://s3.pl-waw.scw.cloud/bet/cms/streambet-test/overlay_banner_1.png"
+              },
+              "smallImg": {
+                "type": "image",
+                "value": "https://s3.pl-waw.scw.cloud/bet/cms/streambet-test/overlay_banner_1.png"
+              }
+            }
+          ]
+        },
+        "visibility": {
+          "visibleOnSport": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForGuest": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnCasino": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnMobile": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnNative": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForLogged": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnDesktop": {
+            "type": "checkbox",
+            "value": true
+          }
+        }
+      },
+      "order": 13,
+      "widgetUuid": "c4bca49d-1533-49da-840f-11a00af2037a",
+      "widgetType": "GameReleases"
+    },
+    {
+      "auditCD": "2025-03-04T14:14:14",
+      "auditCU": null,
+      "auditMD": "2025-04-07T14:56:54",
+      "auditMU": null,
+      "auditLD": "2025-04-07T14:56:54",
+      "fields": {
+        "visibility": {
+          "visibleOnSport": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForGuest": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnCasino": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnMobile": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnNative": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForLogged": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnDesktop": {
+            "type": "checkbox",
+            "value": true
+          }
+        },
+        "defaultProps": {
+          "type": "text",
+          "value": "fdsfasd"
+        }
+      },
+      "order": 14,
+      "widgetUuid": "091c2c92-89eb-40f7-992b-39050b15a58f",
+      "widgetType": "SectionEnd"
+    },
+    {
+      "auditCD": "2025-03-04T14:14:14",
+      "auditCU": null,
+      "auditMD": "2025-04-07T14:56:54",
+      "auditMU": null,
+      "auditLD": "2025-04-07T14:56:54",
+      "fields": {
+        "email": {
+          "type": "text",
+          "value": "test@gmail.com"
+        },
+        "partners": {
+          "type": "repeater",
+          "value": [
+            {
+              "id": "81da06ac-dbbc-4ade-ab74-4d55a79b3873",
+              "alt": {
+                "type": "text",
+                "value": "fdas"
+              },
+              "logo": {
+                "type": "image",
+                "value": "https://s3.pl-waw.scw.cloud/bet/cms/streambet-test/Game Developer Logos (14) (1).png"
+              },
+              "order": 0
+            },
+            {
+              "id": "51836e45-961e-4cf2-8e0f-86a0ddf37171",
+              "logo": {
+                "type": "image",
+                "value": "https://s3.pl-waw.scw.cloud/bet/cms/streambet-test/Game Developer Logos (13) (1).png"
+              },
+              "order": 1
+            },
+            {
+              "id": "8546cf55-e024-4540-87be-5f90f2308944",
+              "alt": {
+                "type": "text",
+                "value": "gewgagr"
+              },
+              "logo": {
+                "type": "image",
+                "value": "https://s3.pl-waw.scw.cloud/bet/cms/streambet-test/Game Developer Logos (9) (1).png"
+              },
+              "order": 2
+            },
+            {
+              "id": "3c7950a2-1023-49b9-b94c-0b1e6f6b0fff",
+              "alt": {
+                "type": "text",
+                "value": "agewa"
+              },
+              "logo": {
+                "type": "image",
+                "value": "https://s3.pl-waw.scw.cloud/bet/cms/streambet-test/Game Developer Logos (15) (1).png"
+              },
+              "order": 3
+            }
+          ]
+        },
+        "languages": {
+          "type": "repeater",
+          "value": []
+        },
+        "regulation": {
+          "type": "text",
+          "value": "This website is licensed under Starscream Limited, a company incorporated under the laws of Saint Lucia with registration number 2023-00007 and registered address in Saint Lucia. Starscream Limited is licensed and regulated in virtue of a Client Provider Authorization numbered 00952 issued on July 2023 by the Kahnawake Gaming Commission. Gambling can be addictive, please Play Responsibly. For help visit our Responsible Gambling page. Underage gambling is an offence. 18+ Touch casino® Copyright 2023."
+        },
+        "visibility": {
+          "visibleOnSport": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForGuest": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnCasino": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnMobile": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnNative": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleForLogged": {
+            "type": "checkbox",
+            "value": true
+          },
+          "visibleOnDesktop": {
+            "type": "checkbox",
+            "value": true
+          }
+        },
+        "responsibleGambling": {
+          "type": "repeater",
+          "value": [
+            {
+              "id": "27fbfd96-c98e-45dd-9260-c599ec157fa2",
+              "alt": {
+                "type": "text",
+                "value": "gew"
+              },
+              "logo": {
+                "type": "image",
+                "value": "https://s3.pl-waw.scw.cloud/bet/cms/streambet-test/Game Developer Logos (14) (1).png"
+              },
+              "order": 0
+            },
+            {
+              "id": "a5885224-2eda-494e-8820-4c4590c66495",
+              "alt": {
+                "type": "text",
+                "value": "wragras"
+              },
+              "logo": {
+                "type": "image",
+                "value": "https://s3.pl-waw.scw.cloud/bet/cms/streambet-test/Game Developer Logos (14) (1).png"
+              },
+              "order": 1
+            },
+            {
+              "id": "3de4a833-0b8f-4ee5-9cc2-0854be16f4a0",
+              "logo": {
+                "type": "image",
+                "value": "https://s3.pl-waw.scw.cloud/bet/cms/streambet-test/Game Developer Logos (14) (1).png"
+              },
+              "order": 2
+            }
+          ]
+        }
+      },
+      "order": 15,
+      "widgetUuid": "54bdc8b9-a7f9-4d9d-b3c2-111f2434e4e5",
+      "widgetType": "FooterLP"
+    }
+  ]
+}

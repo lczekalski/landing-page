@@ -1,4 +1,4 @@
-import { Widget } from "src/types/cms"
+import { Widget } from "lib/types/cms"
 
 class WidgetVisibilityChecker {
   constructor(private widget: Widget) {}

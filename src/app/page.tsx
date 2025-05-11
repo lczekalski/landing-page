@@ -1,12 +1,13 @@
 import { Metadata } from "next"
 import { cache } from "react"
-import CmsWidget from "src/components/features/cms/CmsWidget"
+import CmsWidget from "lib/cms/widgets/CmsWidget"
+import { Meta, Page } from "lib/types/cms"
 import apiService from "src/lib/api_service"
-import { Meta, Page } from "src/types/cms"
 
 export const getCmsPage = cache(async (): Promise<Page> => {
-  const raw = await apiService.get("/cms/pages/type=LANDING_PAGE/content?lang=en")
+  const raw: object = await apiService.get("/cms/pages/type=LANDING_PAGE/content?lang=en")
 
+  console.log("********************** getting cms page **********************")
   const result = {
     meta: raw.meta as Meta,
     widgets: raw.widgets.map((widget) => {
@@ -42,7 +43,7 @@ export default async function Web() {
   )
 }
 
-function unwrapProps(prop, languageCodeForFields) {
+function unwrapProps(prop: any, languageCodeForFields: string): any {
   if (Array.isArray(prop)) {
     return prop.map((item) => unwrapProps(item, languageCodeForFields))
   } else if (prop && typeof prop === "object") {
